@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Absensi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="login-page">
+
+<div class="login-box">
+    <h2>Login Absensi</h2>
+
+    <label>Nama Siswa</label>
+    <select id="nama">
+        <option>Adellia Deviana</option>
+        <option>Galih Fulvian</option>
+        <option>Andika Putra</option>
+        <option>Denok Umi</option>
+        <option>Zainal Abidin</option>
+        <option>Luthfiah</option>
+        <option>Nabilatun Nada</option>
+        <option>Abimanyu</option>
+        <option>Dwi Aris</option>
+        <option>Diresya Fajrasida</option>
+        <option>Jericco Nando</option>
+        <option>Selvy Putri</option>
+    </select>
+
+    <label>Upload Foto</label>
+    <input type="file" id="foto" accept="image/*">
+
+    <button onclick="login()">Masuk</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Absensi Edukasi Sosial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Absensi Penyelesaian Tugas</h1>
+    <p>Kelas XI IPS (Soshum)</p>
+    <button onclick="logout()">Logout</button>
+</header>
+
+<section class="profil">
+    <h3>Profil Siswa</h3>
+    <p id="namaSiswa"></p>
+    <img id="fotoPreview" alt="Foto Siswa">
+</section>
+
+<section>
+    <h3>Deskripsi Penyelesaian Tugas</h3>
+    <textarea placeholder="Tuliskan deskripsi penyelesaian tugas..."></textarea>
+</section>
+
+<section class="rating">
+    <h3>Rating Kendala</h3>
+    <select>
+        <option>⭐</option>
+        <option>⭐⭐</option>
+        <option>⭐⭐⭐</option>
+        <option>⭐⭐⭐⭐</option>
+        <option>⭐⭐⭐⭐⭐</option>
+    </select>
+
+    <h3>Rating Edukasi Sosial</h3>
+    <select>
+        <option>⭐</option>
+        <option>⭐⭐</option>
+        <option>⭐⭐⭐</option>
+        <option>⭐⭐⭐⭐</option>
+        <option>⭐⭐⭐⭐⭐</option>
+    </select>
+</section>
+
+<footer>
+    <p>© 2025 XI IPS - Edukasi Sosial</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Logout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="logout-page">
+
+<div class="logout-box">
+    <h2>Logout Berhasil</h2>
+    <p>Terima kasih telah mengisi absensi.</p>
+    <a href="login.html">Login Kembali</a>
+</div>
+
+</body>
+</html>
